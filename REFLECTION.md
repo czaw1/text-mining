@@ -3,8 +3,11 @@ For this assignment, I used a Wikipedia article and 3 newspaper articles. I comp
 
 
 <h3>2. Implementation</h3>
+<p>
 In my text mining code, there are 4 main functions. All these functions work quite similarly. To break down the first function analyze_coupwiki, I summarized the article since it was longer than the news articles to understand the focus of the article. Then I cleaned the data so that only words that contribute to the main idea of the article remain. This was done through the code I received from Machine Learning Mastery. I decided to clean the data because, initially when I analyzed the article for its top 10 words used, most of the words were prepositions. I found that for the analysis to be more effective, I would need to process words that were integral to the article. Therefore, I went through the processes of cleaning the data. After cleaning the data, I used the clean data to count the top 10 words used in the article. Thus, I combined the technique to clean the data then to count the data into one function. This is so that I get a more accurate list of top 10 words. To count the top 10 words of the data, I used code from Geeks for Geeks. I used their code because it was very straightforward and efficient. It used pre-existing functions to carry out this analysis. 
-In addition, I also ran a sentiment analysis on all of my data. I thought that this analysis was better than a text comparison analysis because I thought that comparing the sentiment analysis would be more insightful than just comparing the similarity of text. The tone gives more insight into how the article aims to pain the coup. 
+
+In addition, I also ran a sentiment analysis on all of my data. I thought that this analysis was better than a text comparison analysis because I thought that comparing the sentiment analysis would be more insightful than just comparing the similarity of text. The tone gives more insight into how the article aims to pain the coup. A text similarity would be more fitting for testing plagirism so I did not use that analysis.
+</p>
 
 <h3> 3. Results </h3>
 <h4>Top 10 Words and its Frequency</h4>
