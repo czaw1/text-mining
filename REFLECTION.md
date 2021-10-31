@@ -8,12 +8,15 @@ In addition, I also ran a sentiment analysis on all of my data. I thought that t
 
 <h3> 3. Results </h3>
 Top 10 Words and its Frequency </br>
+
 These are the top 10 words used in the Wiki: [('myanmar', 78), ('military', 78), ('february', 56), ('coup', 55), ('aung', 34), ('also', 31), ('government', 26), ('including', 20), ('country', 18), ('state', 18)]</br>
 These are the top 10 words used in the LA Times article: [('military', 11), ('country', 6), ('rights', 6), ('suu', 5), ('kyi', 5), ('human', 5), ('us', 4), ('myanmar', 4), ('democracy', 4), ('detained', 4)]</br>
 These are the top 10 words used in the BBC article: [('myanmar', 14), ('military', 13), ('coup', 10), ('suu', 10), ('kyi', 10), ('country', 7), ('image', 6), ('aung', 6), ('ms', 6), ('including', 5)]</br>
 These are the top 10 words used in the Times article: [('military', 35), ('myanmar', 21), ('country', 14), ('said', 14), ('coup', 13), ('aung', 12), ('suu', 12), ('kyi', 12), ('democratic', 11), ('us', 9)]</br>
 
+<p>
 It is interesting that out of all the data sources, only two have the word ‘democracy’ in their top 10 words used. I would have assumed that all sources’ top 10 words would include democracy since the coup’s main aim is to destroy the democracy in the country. Common words from all data sources are the main people involved who are the military and Aung Sann Suu Kyi which is expected. Another interesting point is that ‘February’ is very high in the list of words for the Wikipedia article and it is not part of any of the other lists. It is interesting to note that Wikipedia focused on the time of the coup. Some errors I see in the lists are, words such as ‘also’, ‘us’, and ‘ms’ were not stripped during the data cleaning.</br>
+</p>
 
 Sentiment Report
 <table>
@@ -33,35 +36,26 @@ Sentiment Report
   </tr>
   <tr>
     <td>LA Times</td>
-    <td></td>
-    <td>Mexico</td>
+    <td>0.158</td>
+    <td>0.784</td>
+    <td>0.058</td>
+    <td>-0.9953</td>
+  </tr>
+  <tr>
+    <td>BBC</td>
+    <td>0.123</td>
+    <td>0.797</td>
+    <td>0.08</td>
+    <td>-0.9921</td>
+  </tr>
+  <tr>
+    <td>Times</td>
+    <td>0.062</td>
+    <td>0.834</td>
+    <td>0.104</td>
+    <td>0.9976</td>
   </tr>
 </table>
-Data Source:
-Negative
-Neutral
-Positive
-Compound
-Wikipedia 
-0.104
-0.826
-0.07
--0.9997
-LA Times
-0.158
-0.784
-0.058
--0.9953
-BBC
-0.123
-0.797
-0.08
--0.9921
-Times
-0.062
-0.834
-0.104
-0.9976
 
  
 It is quite interesting to see that the Times article was the most neutral out of all data sources. I would imagine that the Wikipedia article would be the most neutral because it is supposed to be a purely factual page while newspaper articles are usually more opinionated based on the political party that makes up the newspaper company’s audience. The LA times seems to be the article with the most negative words. Though this analysis shows the number of negative words, and etc, I cannot assume that LA times paints a more negative view of the situation than the other sources. There is no relationship between the number of negative words used in an article and how the newspaper article views the situation. However, it does imply that LA times used more words that would provoke a more negative tone. The analysis surprised me in the sense that Wikipedia used more negative words than LA times. Although, the difference is not much.</br>
