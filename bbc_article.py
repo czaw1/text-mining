@@ -35,4 +35,4 @@ def analyze_bbc():
     from nltk.sentiment.vader import SentimentIntensityAnalyzer
     paragraph = article.text
     score = SentimentIntensityAnalyzer().polarity_scores(paragraph)
-    print(f'This is the sentiment report of the Wiki: {score}')
+    print(f'This is the sentiment report of the BBC article: {score}')
