@@ -1,4 +1,4 @@
-1. Project Overview </br>
+1. <h3>Project Overview<h3> </br>
 For this assignment, I used a Wikipedia article and 3 newspaper articles. I computed summary statistics to find the top 10 words used in the data. Before doing that, I cleaned the data by stripping punctuation, and prepositions from the text to obtain words that are integral to the main topic. I also conducted a sentiment analysis to see if the articles had a more negative tone or positive tone. What I hoped to learn from this was to see the difference in word choice and tone between a Wikipedia article and a news article. In addition, I wanted to compare the attributes mentioned previously among different media outlets such as the LA Times, BBC, and Times.
 
 
@@ -65,7 +65,7 @@ Times
 It is quite interesting to see that the Times article was the most neutral out of all data sources. I would imagine that the Wikipedia article would be the most neutral because it is supposed to be a purely factual page while newspaper articles are usually more opinionated based on the political party that makes up the newspaper company’s audience. The LA times seems to be the article with the most negative words. Though this analysis shows the number of negative words, and etc, I cannot assume that LA times paints a more negative view of the situation than the other sources. There is no relationship between the number of negative words used in an article and how the newspaper article views the situation. However, it does imply that LA times used more words that would provoke a more negative tone. The analysis surprised me in the sense that Wikipedia used more negative words than LA times. Although, the difference is not much.</br>
 
 
-4. <h3>Reflection<h3></br>
+4. <h3>Reflection<h3>
 As for my process while doing this project, how I went about analyzing the texts is first, I would think of how I’d normally analyze the data manually, and then think of how I could automate it. I also thought of what results and what type of analysis I wanted. I had in mind that I wanted to analyze the differences in reporting the coup among different websites. The coup is quite a controversial topic, and personal, so I was more interested in getting results. From a process point of view, I think that cleaning the data went fairly well. The top 10 words list that resulted after cleaning the data was much more insightful than the one without data cleaning. Though there are some words that could have been stripped, as mentioned in the results section, overall all the top 10 words were important words of the text. There are many ways I could improve the project. Next time I do it, I would find a way to take the sentiment analysis data and put it into a table instead of having to do it manually. In addition, I would like to run an analysis that compares the top 10 words list to see which words overlap and which words do not exist in any of the other lists.
  
 
