@@ -29,7 +29,7 @@ def analyze_times():
     from collections import Counter
     Counter = Counter(words)
     most_occur_times = Counter.most_common(10)
-    print(f'These are the top 10 words used in the Wiki: {most_occur_times}')
+    print(f'These are the top 10 words used in the Times article: {most_occur_times}')
     print(f'')
 
     from nltk.sentiment.vader import SentimentIntensityAnalyzer

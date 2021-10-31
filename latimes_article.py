@@ -32,7 +32,7 @@ def analyze_latimes():
     from collections import Counter
     Counter = Counter(words)
     most_occur_latimes = Counter.most_common(10)
-    print(f'These are the top 10 words used in the Wiki: {most_occur_latimes}')
+    print(f'These are the top 10 words used in the LA Times article: {most_occur_latimes}')
     print(f'')
 
     from nltk.sentiment.vader import SentimentIntensityAnalyzer

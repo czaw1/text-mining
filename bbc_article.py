@@ -29,7 +29,7 @@ def analyze_bbc():
     from collections import Counter
     Counter = Counter(words)
     most_occur_bbc = Counter.most_common(10)
-    print(f'These are the top 10 words used in the Wiki: {most_occur_bbc}')
+    print(f'These are the top 10 words used in the BBC article: {most_occur_bbc}')
     print(f'')
 
     from nltk.sentiment.vader import SentimentIntensityAnalyzer
