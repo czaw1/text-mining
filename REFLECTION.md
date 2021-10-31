@@ -7,18 +7,21 @@ In my text mining code, there are 4 main functions. All these functions work qui
 In addition, I also ran a sentiment analysis on all of my data. I thought that this analysis was better than a text comparison analysis because I thought that comparing the sentiment analysis would be more insightful than just comparing the similarity of text. The tone gives more insight into how the article aims to pain the coup. 
 
 <h3> 3. Results </h3>
-Top 10 Words and its Frequency </br>
+<h4>Top 10 Words and its Frequency</h4>
+<p>
+These are the top 10 words used in the Wiki: [('myanmar', 78), ('military', 78), ('february', 56), ('coup', 55), ('aung', 34), ('also', 31), ('government', 26), ('including', 20), ('country', 18), ('state', 18)]
 
-These are the top 10 words used in the Wiki: [('myanmar', 78), ('military', 78), ('february', 56), ('coup', 55), ('aung', 34), ('also', 31), ('government', 26), ('including', 20), ('country', 18), ('state', 18)]</br>
-These are the top 10 words used in the LA Times article: [('military', 11), ('country', 6), ('rights', 6), ('suu', 5), ('kyi', 5), ('human', 5), ('us', 4), ('myanmar', 4), ('democracy', 4), ('detained', 4)]</br>
-These are the top 10 words used in the BBC article: [('myanmar', 14), ('military', 13), ('coup', 10), ('suu', 10), ('kyi', 10), ('country', 7), ('image', 6), ('aung', 6), ('ms', 6), ('including', 5)]</br>
-These are the top 10 words used in the Times article: [('military', 35), ('myanmar', 21), ('country', 14), ('said', 14), ('coup', 13), ('aung', 12), ('suu', 12), ('kyi', 12), ('democratic', 11), ('us', 9)]</br>
+These are the top 10 words used in the LA Times article: [('military', 11), ('country', 6), ('rights', 6), ('suu', 5), ('kyi', 5), ('human', 5), ('us', 4), ('myanmar', 4), ('democracy', 4), ('detained', 4)]
 
+These are the top 10 words used in the BBC article: [('myanmar', 14), ('military', 13), ('coup', 10), ('suu', 10), ('kyi', 10), ('country', 7), ('image', 6), ('aung', 6), ('ms', 6), ('including', 5)]
+
+These are the top 10 words used in the Times article: [('military', 35), ('myanmar', 21), ('country', 14), ('said', 14), ('coup', 13), ('aung', 12), ('suu', 12), ('kyi', 12), ('democratic', 11), ('us', 9)]
+</p>
 <p>
 It is interesting that out of all the data sources, only two have the word ‘democracy’ in their top 10 words used. I would have assumed that all sources’ top 10 words would include democracy since the coup’s main aim is to destroy the democracy in the country. Common words from all data sources are the main people involved who are the military and Aung Sann Suu Kyi which is expected. Another interesting point is that ‘February’ is very high in the list of words for the Wikipedia article and it is not part of any of the other lists. It is interesting to note that Wikipedia focused on the time of the coup. Some errors I see in the lists are, words such as ‘also’, ‘us’, and ‘ms’ were not stripped during the data cleaning.</br>
 </p>
 
-Sentiment Report
+<h4>Sentiment Report</h4>
 <table>
   <tr>
     <th>Data</th>
